@@ -3,14 +3,14 @@ import { IoMdCart } from "react-icons/io";
 import { IoPersonOutline } from "react-icons/io5";
 const Navbar = () => {
   return (
-    <nav>
-      <section className="p-6 flex items-center  gap-8">
+    <nav className="border-b border-gray-300">
+      <section className="p-6 flex items-center gap-8  max-w-350 mx-auto">
         <h1 className="font-heading text-xl font-bold cursor-pointer">Friends Halal</h1>
-        <div className="relative text-green-700">
+        <div className="relative text-green-900">
           <CiSearch className="text-2xl absolute left-2 top-1/2 transform -translate-y-1/2" />
           <input type="text"
           placeholder="Search...."
-          className="border border-gray-300 rounded-md pl-10 py-2 focus:outline-none w-200" 
+          className="border border-gray-300 rounded-md pl-10 py-2 focus:outline-none w-180" 
           />
         </div>
         <div className="flex gap-4 ml-auto font-bold cursor-pointer" ><h1>Meat</h1>
